@@ -7,7 +7,7 @@ void clear_text() {
 }
 
 void main() {
-	int frame_counter;
+	int frame_counter = 0;
 
 	printf("____________________\nGBDemo\n - by thatretrodev\n____________________\n");
 	while (1) {
