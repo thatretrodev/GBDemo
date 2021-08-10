@@ -12,10 +12,10 @@ LCC = $(GBDK_HOME)bin/lcc
 # LCC = $(LCC) -debug
 
 # You can set the name of the .gb ROM file here
-PROJECTNAME    = Example
+PROJECTNAME = GBDemo
 
-BINS	    = $(PROJECTNAME).gb
-CSOURCES   := $(wildcard *.c)
+BINS = $(PROJECTNAME).gb
+CSOURCES := $(wildcard *.c)
 ASMSOURCES := $(wildcard *.s)
 
 all:	$(BINS)
